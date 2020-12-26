@@ -1,0 +1,17 @@
+#!/bin/bash
+
+BASE_PATH=/mnt/c/wsl-distros/
+UBUNTU_ROOTFS_TAR=${BASE_PATH}/ubuntu-18.04-server-cloudimg-amd64-wsl.rootfs.tar.gz
+
+K8S_MASTER_FOLDER=${BASE_PATH}/k8s-master
+
+mkdir -p ${K8S_MASTER_FOLDER}
+
+function import-distro {
+    wsl.exe \
+        --import k8s-master \
+        $(wslpath -w ${K8S_MASTER_FOLDER}) \
+        $(wslpath -w ${UBUNTU_ROOTFS_TAR})
+}
+
+"$@"

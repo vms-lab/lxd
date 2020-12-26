@@ -1,0 +1,5 @@
+users:
+  - name: sandman
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCB4OpBsmBI4/v9z/ra7Q53VsKCqDH+BObF6dgNdnXY0aOtpsPFG60yUe91ie2bhRRcOv0zVtp+2d19E+4Z9jn9weld/HZHp/VHvimA5wtP5T9dyYb4gzTQmztlijdj0sxmmiWI4rlbTYWLiJZZm5Efq0dJoaZdLxrVOHIiE3aHyE6V2jOMywOBLzbbg2FQPQb7WkdPvAQOUM+MHoTcvyCdibaEpI86PwXYt1cGBSAhN4oGcEs1CDPfnGc5Xi+HxI7oedbZWuMKk4l4PB+jhmfAoP1l1py12xtWWWFbALwI2757/jyzBhizTnzEKJDUfiJuv0lvz9Yp2OQ0lxGRTpYD
